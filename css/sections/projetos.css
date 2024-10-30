@@ -1,0 +1,16 @@
+.projetos{
+    max-width: 1760px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: var(--cor-n5);
+    color: var(--cor-n6);
+    padding: 40px;
+}
+
+.projetos h2{
+    margin-bottom: 10px;
+}
+
+.projetos p{
+    margin-top: 0px;
+}

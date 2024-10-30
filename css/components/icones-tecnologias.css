@@ -1,0 +1,94 @@
+.tecnologias figure{
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2em;
+    padding: 0 1em;
+}
+
+.tecnologias  figure  i{
+    font-size: 4em;
+    color: var(--cor-n6);
+}
+
+#html5:hover{
+    color: #e54d26;
+    transition: all ease 300ms;
+}
+
+#css3:hover{
+    color: #0277BD;
+    transition: all ease 300ms;
+}
+
+#javascript:hover{
+    color: #FFD600;
+    transition: all ease 300ms;
+}
+
+#jquery:hover{
+    color: #1266A9;
+    transition: all ease 300ms;
+}
+
+#sass:hover{
+    color: #F06292;
+    transition: all ease 300ms;
+}
+
+#mysql:hover{
+    color: #546E7A;
+    transition: all ease 300ms;
+}
+
+#react:hover{
+    color: #8CE1EB;
+    transition: all ease 300ms;
+}
+
+#java:hover{
+    color: #F44336;
+    transition: all ease 300ms;
+}
+
+#c:hover{
+    color: #00549D;
+    transition: all ease 300ms;
+}
+
+#postgresql:hover{
+    color: #0277BD;
+    transition: all ease 300ms;
+}
+
+#python:hover{
+    color: #FFC107;
+    transition: all ease 300ms;
+}
+
+
+.icone-tecs {
+    position: relative;
+}
+
+.descricao {
+    font-size: 1rem;
+    color: #fff;
+    position: absolute;
+    bottom: 115%;
+    transform: translateX(-33%);
+    width: 180px;
+    padding: 0.8em 1.7em 1em 0.8em;
+    border-radius: 1em;
+    background-color: rgba(0, 0, 0, 0.9);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.icone-tecs:hover .descricao {
+    opacity: 1;
+    visibility: visible;
+}

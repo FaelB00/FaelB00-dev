@@ -1,0 +1,37 @@
+.sobre {
+    padding: 100px;
+    position: relative; 
+    background-color: var(--cor-n3);
+}
+
+.sobre .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    border-left: 4px solid var(--cor-n1);
+    padding: 20px;
+    
+}
+
+.sobre__texto {
+    flex: 1;
+}
+
+.sobre__texto h2{
+    font-size: 30px;
+}
+
+.sobre__texto p {
+    max-width: 100%;
+}
+
+.sobre__links {
+    flex: 1; 
+    margin-top: 50px;
+    width: 300px;
+}
+
+.sobre__links ul {
+    justify-content: flex-start;
+}

@@ -1,0 +1,15 @@
+:root{
+    --cor-n1: #020202;
+    --cor-n2: #19191a;
+    --cor-n3: #373739;
+    --cor-n4: #6189FF;
+    --cor-n5: #fff;
+    --cor-n6: #aaaaaa;
+
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    scroll-padding-top: 74px;
+}

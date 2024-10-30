@@ -1,0 +1,27 @@
+/* ABSTRACTS */
+@import '../css/abstracts/root.css';
+
+/* BASE */
+@import '../css/base/fade.css';
+@import '../css/base/meu-reset.css';
+@import '../css/base/normalize.css';
+
+/* LAYOUT */
+@import '../css/layout/geral.css';
+@import '../css/layout/cabecalho.css';
+@import '../css/layout/rodape.css';
+
+
+/* COMPONENTES */
+@import '../css/components/botoes-sobre_mim.css';
+@import '../css/components/icones-tecnologias.css';
+@import '../css/components/scroller-projetos.css';
+
+/* PÁGINAS */
+@import '../css/sections/intro.css';
+@import '../css/sections/projetos.css';
+@import '../css/sections/sobre_mim.css';
+@import '../css/sections/tecnologias.css';
+
+/* VENDORS */
+@import '../css/vendors/_fancybox.css';

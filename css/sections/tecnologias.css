@@ -1,0 +1,15 @@
+.tecnologias{
+    text-align: center;
+    background-color: var(--cor-n5);
+    color: var(--cor-n6);
+    padding: 50px;
+    padding-bottom: 15px;
+}
+
+.tecnologias h2{
+    margin-bottom: 10px;
+}
+
+.tecnologias p{
+    margin: 0px;
+}

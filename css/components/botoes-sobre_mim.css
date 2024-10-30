@@ -1,0 +1,65 @@
+.sobre__links ul{
+    list-style: none;
+    display: flex;
+    position: relative;
+    gap: 40px;
+}
+
+.sobre__links ul li{
+    width: 70px;
+    height: 70px;
+    background-color: var(--cor-n5);
+    box-shadow: 1px 1px 5px var(--cor-n1);
+    border-radius: 200px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    transition: all ease .5s;
+
+}
+.sobre__links ul li::before{
+    content: '';
+    position: absolute;
+    background-image: linear-gradient(45deg, var(--cor1), var(--cor2));
+    transform: scale(1.05);
+    inset: 0;
+    opacity: 0;
+    border-radius: 60px;
+    transition: all ease 0.2s;
+}
+
+.sobre__links ul li:hover::before{
+    opacity: 1;
+}
+
+.sobre__links span{
+    position: absolute;
+}
+
+.sobre__links ul li:hover{
+    width: 200px;
+    transition: all ease .2s;
+}
+
+.sobre__links ul li:hover .texto-redes{
+    transform: scale(1);
+}
+
+.sobre__links ul li:hover .icones-redes{
+    transform: scale(0);
+}
+
+.icones-redes{
+    color: var(--cor1);
+    font-size: 2.4em;
+    transition: all ease .5s;
+}
+
+.texto-redes{
+    color: #fff;
+    font-size: 22px;
+    transform: scale(0);
+    transition: all ease .2s;
+    transition-delay: .1s;
+}

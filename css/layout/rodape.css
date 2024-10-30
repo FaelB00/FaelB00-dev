@@ -1,0 +1,49 @@
+.rodape__linha-1{
+    background-color: var(--cor-n2);
+    color: var(--cor-n5);
+    padding: 70px;
+}
+
+.rodape__linha-1 .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.rodape__sobre{
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.rodape__icones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.minha-foto{
+    width: 15vh;
+    height: 15vh;
+    border-radius: 50%;
+    background-color: grey;
+    overflow: hidden;
+    border: 1px solid #ffffff;
+}
+
+.minha-foto img {
+    width: 100%;
+  }
+
+.rodape__linha-2{
+    text-align: center;
+    background-color: var(--cor-n1);
+    color: var(--cor-n5);
+    padding: 20px;
+}
