@@ -16,6 +16,7 @@
 @import '../css/components/botoes-sobre_mim.css';
 @import '../css/components/icones-tecnologias.css';
 @import '../css/components/scroller-projetos.css';
+@import '../css/components/menu-mobile.css';
 
 /* PÁGINAS */
 @import '../css/sections/intro.css';

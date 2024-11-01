@@ -2,7 +2,6 @@
     background-image: linear-gradient(45deg, var(--cor-n3), var(--cor-n2));
     color: #fff;
     background-size: cover;
-
     margin-top: -80px;
 }
 
@@ -11,7 +10,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 80px 0% 20px 0;
+    padding: 150px 0% 20px 0;
 }
   
 .intro__texto{
@@ -29,7 +28,27 @@
   }
   
 .intro img{
-    height: 800px;
+    height: 650px;
     margin-bottom: -19px;
 }
 
+@media (max-width: 768px) {
+    .intro .container {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .intro__texto{
+        margin-top: 80px;
+    }
+    .intro img{
+        width: 100%;
+        height: auto;
+    }
+    .intro__texto h1 {
+        font-size: 8vw;
+    }
+
+    .intro__texto p {
+        padding-right: 0;
+    }
+}

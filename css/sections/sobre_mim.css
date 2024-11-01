@@ -35,3 +35,14 @@
 .sobre__links ul {
     justify-content: flex-start;
 }
+
+@media(max-width: 768px){    
+    .sobre{
+        padding: 30px;
+    }
+    .sobre .container{
+        flex-direction: column;
+        width: 100%;
+        gap: 0;
+    }
+}

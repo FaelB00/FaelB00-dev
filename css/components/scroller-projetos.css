@@ -10,6 +10,8 @@
     margin-bottom: 50px;
     border-radius: 10px;
     background-color: var(--cor-n5);
+    scroll-behavior: smooth;
+
 }
 
 .scroller-projetos__item a{
@@ -45,6 +47,7 @@
 
 .scroller-projetos::-webkit-scrollbar{
     height: 10px;
+    scroll-behavior: smooth;
 }
 
 *[class*="projetos__botao"]{
@@ -180,7 +183,7 @@
     transition: opacity 250ms ease;
 }
 
-@media screen and (min-width:900px){
+/* @media screen and (min-width:900px){
     .scroller-projetos__item{
         width: calc(100%/2);
     }
@@ -193,4 +196,15 @@
 
 @media(min-width: 992px){
 
+} */
+@media(max-width: 768px){
+    .scroller-projetos::-webkit-scrollbar{
+        display: none;
+    }
+    .scroller-projetos{
+        padding: 0;
+    }
+    *[class*="projetos__botao"]{
+        display: none;
+    }
 }

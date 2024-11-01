@@ -63,3 +63,18 @@
     transition: all ease .2s;
     transition-delay: .1s;
 }
+
+@media (max-width: 768px) {
+    .sobre__links ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 0 auto;
+        padding-left: 20%;
+
+    }  
+    .sobre__links ul li{
+        width: 70px;
+        height: 70px;
+    }
+}
+

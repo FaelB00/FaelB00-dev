@@ -92,3 +92,10 @@
     opacity: 1;
     visibility: visible;
 }
+
+@media(max-width: 768px){
+    .tecnologias figure{      
+        margin: 30px 0 0 0;
+    }
+
+}
