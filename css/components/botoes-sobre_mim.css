@@ -3,6 +3,7 @@
     display: flex;
     position: relative;
     gap: 40px;
+    padding-top: 20px;
 }
 
 .sobre__links ul li{
@@ -67,21 +68,33 @@
 @media (max-width: 576px) {
     .sobre__links ul {
         display: grid;
+        flex-wrap: wrap;
         grid-template-columns: 1fr 1fr;
         margin: 0 auto;
-        padding-left: 20%;
-
     }  
     .sobre__links ul li{
         width: 70px;
         height: 70px;
     }
-}
+} 
 
-@media (max-width: 768px) {
+@media (min-width: 576px) and (max-width: 768px) {
     .sobre__links ul {
         margin: 0 auto;
-        padding-left: 20%;
+    }  
+    .sobre__links ul li{
+        width: 70px;
+        height: 70px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .sobre__links ul {
+        display: grid;
+        flex-wrap: wrap;
+        grid-template-columns: 1fr 1fr;
+        margin: 0 auto;
+        padding-top: 50px;
 
     }  
     .sobre__links ul li{
@@ -89,4 +102,7 @@
         height: 70px;
     }
 }
+
+
+
 

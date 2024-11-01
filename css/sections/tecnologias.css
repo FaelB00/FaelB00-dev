@@ -13,3 +13,9 @@
 .tecnologias p{
     margin: 0px;
 }
+
+@media(max-width:768px){
+    #p-desk{
+        color: var(--cor-n5);
+    }
+}

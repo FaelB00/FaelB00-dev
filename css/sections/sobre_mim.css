@@ -9,13 +9,15 @@
     justify-content: space-between;
     align-items: flex-start;
     gap: 20px;
-    border-left: 4px solid var(--cor-n1);
     padding: 20px;
     
 }
 
 .sobre__texto {
     flex: 1;
+    border-left: 4px solid var(--cor-n1);
+    padding-left: 40px;
+
 }
 
 .sobre__texto h2{

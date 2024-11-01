@@ -32,7 +32,7 @@
     margin-bottom: -19px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 576px) {
     .intro .container {
         flex-direction: column;
         padding: 20px;
@@ -51,4 +51,15 @@
     .intro__texto p {
         padding-right: 0;
     }
+} 
+
+@media (min-width: 556px) {
+    .intro img {
+        width: 55%;
+        height: auto;
+    }
+    .intro__texto{
+        margin-left: 50px;
+    }
 }
+
