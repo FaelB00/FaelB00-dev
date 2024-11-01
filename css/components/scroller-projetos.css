@@ -207,4 +207,8 @@
     *[class*="projetos__botao"]{
         display: none;
     }
+    .scroller-projetos__item{
+        min-width: 390px;
+        height: 615px;
+    }
 }
